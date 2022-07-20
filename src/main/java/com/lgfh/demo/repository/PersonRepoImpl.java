@@ -22,7 +22,7 @@ public class PersonRepoImpl implements PersonRepo {
         persons.add(new Person(1, "Luis"));
         persons.add(new Person(2, "Camilo"));
         persons.add(new Person(3, "Laura"));
-        log.info("list() -> " + persons.toString());
+        log.info("list(). -> " + persons.toString());
         return Flux.fromIterable(persons);
     }
 
